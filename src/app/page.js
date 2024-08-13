@@ -6,7 +6,7 @@ export default function Home() {
   return (
   <>
   <br /><br/><br/>
-  <div style={{backgroundColor:"#FF1493"}}>
+  <div style={{backgroundColor:""}}>
     <Carousel/>
     <br />
     <Card/>

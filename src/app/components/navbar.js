@@ -6,7 +6,7 @@ export default function navbar() {
     <nav className="navbar navbar-expand-lg bg-body fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <Image src="/assets/img/now.png" width={197} height={40} />
+          <Image src="/assets/img/now1.png" width={197} height={40} />
         </a>
         <button
           className="navbar-toggler"
@@ -21,15 +21,16 @@ export default function navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
-                หน้าเเรก
+              <a className="nav-link active " aria-current="page" href="/">
+              <b>หน้าเเรก</b>
               </a>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link" href="/about">
-                เกี่ยวกับเรา
+              <a className="nav-link active" aria-current="page" href="/about">
+              <b>เกี่ยวกับเรา</b>
               </a>
             </li>
 
@@ -62,8 +63,8 @@ export default function navbar() {
             </div>
 
             <li className="nav-item">
-              <a className="nav-link" href="/contect">
-                ติดต่อเรา
+              <a className="nav-link active" aria-current="page" href="/contect">
+                <b>ติดต่อเรา</b>
               </a>
             </li>
           </ul>

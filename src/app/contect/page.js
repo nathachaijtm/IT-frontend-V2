@@ -18,14 +18,14 @@ export default function contect() {
 
 <div className="col-md-4">
 <figure className="figure">
-  <img src="assets/img/owl.jpg" className="figure-img img-fluid rounded" alt="..." width={600} height={600}/>
+  <img src="assets/img/horse.jpg" className="figure-img img-fluid rounded" alt="..." width={600} height={600}/>
   <figcaption className="figure-caption">A caption for the above image.</figcaption>
     </figure>
   </div>
   
   <div className="col-md-4">
 <figure className="figure">
-  <img src="assets/img/owl.jpg" className="figure-img img-fluid rounded" alt="..." width={600} height={600}/>
+  <img src="assets/img/chicken.jpg" className="figure-img img-fluid rounded" alt="..." width={600} height={600}/>
   <figcaption className="figure-caption">A caption for the above image.</figcaption>
     </figure>
   </div>

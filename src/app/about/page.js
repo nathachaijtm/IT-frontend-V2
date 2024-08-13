@@ -10,13 +10,13 @@ export default function about() {
 <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="500">
-      <Image src="/assets/img/11.jpg" layout="responsive" width={1920} height={600} alt="..." />
+      <Image src="/assets/img/11.jpg" layout="responsive" width={1960} height={600} alt="..." />
     </div>
     <div className="carousel-item" data-bs-interval="500">
-      <Image src="/assets/img/22.jpg" layout="responsive" width={1920} height={600} alt="..." />
+      <Image src="/assets/img/22.jpg" layout="responsive" width={1960} height={600} alt="..." />
     </div>
     <div className="carousel-item" data-bs-interval="500">
-      <Image src="/assets/img/33.jpg" layout="responsive" width={1920} height={600} alt="..." />
+      <Image src="/assets/img/33.jpg" layout="responsive" width={1960} height={600} alt="..." />
     </div>
   </div>
 

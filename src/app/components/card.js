@@ -7,7 +7,7 @@ export default function card(){
         <div className="row g-2">
             <div className="col-md-4">
                 <div className="card">
-                <Image src="/assets/img/1.jpeg" layout="responsive" className="card-img-top" width={100} height={100} alt="..." />
+                <Image src="/assets/img/1.png" layout="responsive" className="card-img-top" width={1000} height={400} alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -18,7 +18,7 @@ export default function card(){
 
         <div className="col-md-4">
                 <div className="card">
-                <Image src="/assets/img/2.jpg" layout="responsive" className="card-img-top" width={100} height={100} alt="..." />
+                <Image src="/assets/img/2.png" layout="responsive" className="card-img-top" width={1000} height={400} alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -29,7 +29,7 @@ export default function card(){
             
             <div className="col-md-4">
                 <div className="card">
-                <Image src="/assets/img/3.png" layout="responsive" className="card-img-top" width={100} height={100} alt="..." />
+                <Image src="/assets/img/3.png" layout="responsive" className="card-img-top" width={1000} height={400} alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
