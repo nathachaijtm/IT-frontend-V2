@@ -29,11 +29,10 @@ export default function contect() {
   <figcaption className="figure-caption">A caption for the above image.</figcaption>
     </figure>
   </div>
-
   </div>
   </div>
-
-
+  
+<br /><br/><br/>
 
 </>
   );

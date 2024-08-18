@@ -6,7 +6,7 @@ export default function navbar() {
     <nav className="navbar navbar-expand-lg bg-body fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <Image src="/assets/img/now1.png" width={197} height={40} />
+          <Image src="/assets/img/png.png" width={197} height={40} />
         </a>
         <button
           className="navbar-toggler"
@@ -24,13 +24,13 @@ export default function navbar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
               <a className="nav-link active " aria-current="page" href="/">
-              <b>หน้าเเรก</b>
+              <b><i class="bi bi-house-fill"></i> หน้าเเรก</b>
               </a>
             </li>
 
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/about">
-              <b>เกี่ยวกับเรา</b>
+              <b><i class="bi bi-file-earmark-person-fill"></i>เกี่ยวกับเรา</b>
               </a>
             </li>
 
@@ -45,18 +45,8 @@ export default function navbar() {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
+                  <a class="dropdown-item" href="/shop">
+                  <i class="bi bi-bag"></i> ร้านค้า
                   </a>
                 </li>
               </ul>
@@ -64,12 +54,12 @@ export default function navbar() {
 
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/contect">
-                <b>ติดต่อเรา</b>
+                <b><i class="bi bi-telephone-fill"></i> ติดต่อเรา</b>
               </a>
             </li>
           </ul>
 
-          <Link href="/signup" className="btn btn-outline-info " type="submup">
+          <Link href="/signup" className="btn btn-outline-success " type="submup">
             Sign UP
           </Link>
           <Link
